@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    justify-content: space-between;
+    align-items: center;
+    height: 900px;
+    width: 95%;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+}
+
+div div {
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+
+}
+
+.block-1:hover {
+    cursor: pointer;
+    animation-name: block;
+    /*animation-delay: 0.2s;*/
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes block {
+    from {
+
+    }
+    to {
+
+        background-color: #002233;
+        transform: translateX(80%) translateY(80%);
+    }
+}
+
+.block-1 {
+    align-self: flex-start;
+}
+
+.block-4 {
+    align-self: flex-end;
+}
+
+@keyframes block2 {
+    from {
+
+    }
+    to {
+        transform: translateY(20%);
+    }
+}
+
+.block-2:hover {
+
+    animation-duration: 5s;
+    animation-name: block2;
+    cursor: pointer;
+}
+
+@keyframes block3 {
+    from {
+
+    }
+    to {
+        transform: translateY(-20%) rotatex(100deg) rotateY(100deg);
+    }
+}
+
+.block-3:hover {
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-name: block3;
+    animation-direction: alternate;
+    cursor: pointer;
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div div {
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: gray;
+    height: 400px;
+    width: 400px;
+    display: flex;
+}
+
+.container {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.block-2, .block-3 {
+    margin-top: 12%;
+}
+
+.block-1 {
+    align-self: flex-start;
+    background-color: royalblue;
+}
+
+.block-2 .block-3 {
+    position: fixed;
+    left: 1000px;
+
+}
+
+.block-1:hover {
+    align-self: flex-start;
+    background: rgb(235, 241, 246);
+    background: -moz-linear-gradient(top, rgba(235, 241, 246, 1) 0%, rgba(171, 211, 238, 1) 50%, rgba(137, 195, 235, 1) 51%, rgba(213, 235, 251, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(235, 241, 246, 1) 0%, rgba(171, 211, 238, 1) 50%, rgba(137, 195, 235, 1) 51%, rgba(213, 235, 251, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(235, 241, 246, 1) 0%, rgba(171, 211, 238, 1) 50%, rgba(137, 195, 235, 1) 51%, rgba(213, 235, 251, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ebf1f6', endColorstr='#d5ebfb', GradientType=0); /* IE6-9 */
+    animation-name: firstBlock;
+    animation-duration: 15s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes firstBlock {
+    from {
+
+    }
+    to {
+        margin-left: 20%;
+        margin-top: 25%;
+        z-index: -1;
+
+    }
+}
+
+@keyframes fourthBlock {
+    from {
+
+    }
+    to {
+        transform: rotate(150deg);
+        height: 600px;
+        width: 600px;
+        margin-right: 10%;
+        margin-bottom: 500px;
+    }
+}
+
+.block-4 {
+    margin-top: 535px;
+    align-self: flex-end;
+    background: rgb(240, 183, 161);
+    background: -moz-linear-gradient(top, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(240, 183, 161, 1) 0%, rgba(140, 51, 16, 1) 50%, rgba(117, 34, 1, 1) 51%, rgba(191, 110, 78, 1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0b7a1', endColorstr='#bf6e4e', GradientType=0); /* IE6-9 */
+
+
+}
+
+.block-4:hover {
+    animation-duration: 5s;
+    animation-name: fourthBlock;
+    animation-iteration-count: infinite;
+}
