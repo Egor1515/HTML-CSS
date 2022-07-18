@@ -21,6 +21,9 @@ html, body {
     background: salmon;
     height:50vh
 }
+.block_2 .second_half .row > div{
+    text-align: center;
+}
 .block_2 .first_half{
     height: 50%;
     width: 100%;
@@ -46,7 +49,6 @@ html, body {
     background:linear-gradient( rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.5) ), url("https://cdn-st1.rtr-vesti.ru/vh/pictures/xw/293/879/9.jpg") no-repeat;
     background-size: cover;
     height: 100%;
-
 }
 
 
