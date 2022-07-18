@@ -58,6 +58,7 @@ div div {
     }
     to {
         transform: translateY(20%);
+        background-color: #002233;
     }
 }
 
@@ -73,7 +74,10 @@ div div {
 
     }
     to {
-        transform: translateY(-20%) rotatex(100deg) rotateY(100deg);
+        background-color: #775543;
+
+        transform: translateY(-20%) rotatex(200deg) rotateY(200deg)
+    scale(1.50);
     }
 }
 

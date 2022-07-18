@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container-fluid {
+    background: url("https://funart.pro/uploads/posts/2021-03/1617052140_64-p-oboi-krasivie-vidi-prirodi-65.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.block_2{
+    margin: 0;
+    padding: 0;
+    background:#fff;
+    height: 100%;
+    width: 100%;
+}
+.block_2 .second_half{
+
+    background: salmon;
+    height:50vh
+}
+.block_2 .first_half{
+    height: 50%;
+    width: 100%;
+    background: #fff;
+}
+.block_2 .text-center {
+    padding: 150px;
+}
+.block_2 .text-center .btn {
+    margin-top: 50px;
+}
+.container-fluid .second_half .head{
+    position: absolute;
+    text-align: center;
+    display: flex;
+    width: 1440px ;
+    margin-top: 100px;
+}
+.container-fluid .second_half .container{
+    padding-top: 250px;
+}
+.container-fluid.block_3 {
+    background:linear-gradient( rgba(255, 255, 255, 0.6), rgba(0, 0, 0, 0.5) ), url("https://cdn-st1.rtr-vesti.ru/vh/pictures/xw/293/879/9.jpg") no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+
+
